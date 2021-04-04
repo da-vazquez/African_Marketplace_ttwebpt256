@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+.App {
+  margin: 0 auto;
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-image: url('./components/assets/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat; 
+	background-position: center;
+	background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+html {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.nav-btns button {
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+
+.nav-btns button:hover {
+  margin-right: 5px;
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  width: 100px;
+  background-color: black;
+  color: rgb(243, 247, 7);
+}
+
+.add-item-form input {
+  display: flex;
+  margin-bottom: 8px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 14px;
+  background-color: #efefef;
+}
+
+.add-item-btn {
+  background-color: rgb(5, 161, 177);
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 5px;
+  margin-top: 45px;
+  width: 120px;
+  font-family: 'inter';
+}
+
+
+.add-item-btn:hover {
+  background-color: black;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  margin-top: 45px;
+  width: 120px;
+}
+
+.add-cart-btn {
+  background-color: rgb(5, 161, 177);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  font-family: 'inter';
+}
+
+.add-cart-btn:hover {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  width: 120px;
+}
+
+.add-item-form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 8px 36px #222;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.child {
+  background-color: white;
+  border-bottom: .5px dotted grey;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.parents {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.children {
+  background-color: white;
+  border-bottom: .5px dotted grey;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.add-cart {
+  margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 670px) {
+  .add-item-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 8px 36px #222;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  .nav-btns button {
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 100px;
+    background-color: black;
+    color: white;
+  }
+}

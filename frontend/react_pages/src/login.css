@@ -1,0 +1,31 @@
+@media all and (min-width: 480px){
+
+ .login {
+    padding: 60px 0;
+}   
+
+.login form {
+    margin: 0 auto;
+    max-width: 320px;
+    background-color: white;
+  }
+
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    min-width: 100px;
+    min-height: 400px;
+    padding: 20px 40px 40px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 36px #222;
+    background-color: #fefefe;
+  }
+  
+  div .login{
+    background-color:#21b2a6 ;
+  }
+}
+
+
